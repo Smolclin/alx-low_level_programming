@@ -24,6 +24,7 @@ int _sqrt_recursion(int n)
 int _sqrt(int n, int m)
 {
 	int sqrt = m * m;
+
 	if (sqrt > n)
 		return (-1);
 	if (sqrt == n)
