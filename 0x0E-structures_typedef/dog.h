@@ -9,7 +9,12 @@
  * @owner: the owner of the dog
  *
  * Description: my first alx struct
+ *
+ * dog_t - the new name for the dog struct
  */
+
+typedef struct dog dog_t;
+
 struct dog
 {
 	char *name;
