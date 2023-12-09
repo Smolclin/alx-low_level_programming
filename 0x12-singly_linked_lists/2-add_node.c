@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * strlen - function that returns lenth of
+ * _strlen - function that returns lenth of
  * a string
  * @c: character
  * Return: always 0
