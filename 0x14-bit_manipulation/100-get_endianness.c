@@ -8,9 +8,9 @@
 
 int get_endianness(void)
 {
-	int i = 0;
-	int little_big;
+	int i = 1;
+	int big_little;
 
-	little_big = (int) (((char *)&i)[0]);
-	return (little_big);
+	big_little = (int) (((char *)&i)[0]);
+	return (big_little);
 }
